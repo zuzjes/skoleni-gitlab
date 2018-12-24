@@ -5,7 +5,20 @@ p {
     text-align: justify;
 }
 
-td, th {
-    padding-right: 20px;
+.line {
+    height: 1px;
+    background-color: #CB4C15;
+    opacity: 0.3;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
+.footer{
+    background-color: #CB4C15;
+    padding-top: 1rem;
+    padding-bottom: 2em;
+}
+
+.footer a {
+    color: black;
+}

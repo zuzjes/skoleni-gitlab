@@ -6,12 +6,12 @@ layout: base
 
 
     .header {
-        background-color: #5bc0de;
+        background-color: #CB4C15;
         margin-top: 0px;
         margin-bottom: 20px;
-        font-family: 'Montserrat', sans-serif;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        font-family: 'Source Code Pro', monospace;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .header-inner {
@@ -26,31 +26,27 @@ layout: base
     h1 {
         color: black;
         font-size: 60px;
+        padding: 0px;
     }
 
     .site-header a:hover {
-        color: #394D54;
+        text-decoration: none;
     }
 
     h2 {
-        background: #E7E7E7;
         padding: 10px;
+        padding-left: 0;
         color: black;
+        font-family: 'Source Code Pro', monospace;
+
     }
 
     blockquote {
         font-size: 14px;
     }
-    .btn-right {
 
-    }
-    .footer-p {
-        text-align: center;
-
-    }
-    .page-footer {
-        background-color: #5bc0de;
-        padding: 20px 0px 10px;
+    a {
+        color: #CB4C15;
     }
 </style>
 <div class="container-fluid header-container">
@@ -62,19 +58,21 @@ layout: base
                 <div class="col-md-9 ">
                     <div class="header-inner">
 
-                <span class="site-header"><a href="/"><h1 style="margin-bottom: 0;">Školení Docker</h1></a><i
-                        class="fab fa-docker"></i></span>
-                        <p style="color: #394D54">by <a href="https://ondrej-sika.cz"><b>Ondrej Sika</b></a> | <a
-                                href="https://ondrej-sika.cz/skoleniio">Skoleni.io</a></p>
-                        <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-large btn-primary">Nezávazně
+                        <span class="site-header">
+                            <a href="/"><h1 style="margin-bottom: 0;">Školení Git</h1></a>
+                        </span>
+                        <p>by <a href="https://ondrej-sika.cz" style="color:black"><b>Ondrej Sika</b></a> | <a
+                                href="https://ondrej-sika.cz/skoleniio" style="color: black">Skoleni.io</a></p>
+                        <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-dark mb-2">Nezávazně
                             poptat
                             školení</a>
-                        <a href="/#kontakt" class="btn btn-large btn-primary">Kontaktovat</a>
+
+                        <a href="#kontakt" class="btn btn-large btn-dark mb-2">Kontaktovat</a>
                     </div>
                 </div>
 
-                <div class="col-md-3">
-                    <img src="/static/docker-brands.svg" class="img-responsive">
+                <div class="col-md-3 ">
+                    <img src="Git-Icon.png" class="img-fluid d-none d-md-block">
                 </div>
             </div>
         </div>
@@ -88,17 +86,6 @@ layout: base
 
             {{ content }}
 
-        </div>
-    </div>
-</div>
-
-
-<div class="container-fluid header-container">
-    <div class="row">
-        <div class="col-md-12">
-            <footer class="page-footer">
-                <p class="footer-p"><strong>Školení Docker</strong> by <a href="https://ondrej-sika.cz">Ondrej Sika</a></p>
-            </footer>
         </div>
     </div>
 </div>
