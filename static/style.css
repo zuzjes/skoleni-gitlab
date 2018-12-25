@@ -5,16 +5,20 @@ p {
     text-align: justify;
 }
 
+a {
+    color: #d9534f;
+}
+
 .line {
     height: 1px;
-    background-color: #CB4C15;
+    background-color: #d9534f;
     opacity: 0.3;
     margin-top: 10px;
     margin-bottom: 30px;
 }
 
 .footer{
-    background-color: #CB4C15;
+    background-color: #AD0703;;
     padding-top: 1rem;
     padding-bottom: 2em;
 }

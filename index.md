@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Školení Git
+title: Gitlab školení 
 ---
 
 ## Aktualně vypsané termíny
@@ -8,18 +8,17 @@ title: Školení Git
 {% include terminy.html %}
 
 
-Pokud máte zájem o skoleni u vas ve firme, <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-large btn-outline-dark">nezávazně jej poptejte</a> nebo mi napište email na <ondrej@ondrejsika.com>
+Pokud máte zájem o skoleni u vas ve firme, <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-large btn-outline-danger">nezávazně jej poptejte</a> nebo mi napište email na <ondrej@ondrejsika.com>
 
 <hr class="line">
 
-## Co je Docker
-Docker je kontejnerizační engine, který zajišťuje běh aplikací ve striktně definovaném a odděleném prostředí. Výhody používání Dockeru jsou plná kontrola nad prostředím každé aplikace (jedna může bězět na Debianu a druhá na Cent OS na jednom hostu) a také bezpečnost, protozě apliace vidí jen kontainer a to co jim povolíte (porty, filesystem, ... na hostu).
-
+## Co je Gitlab
+Gitlab je free a opensource Git server, který kromě Git repozitaru podporuje Continues Integration a umí například Docker Registry. V Gitlabu můžete vést agenu ohledně vývoje, trekovat issues, psát dokumentaci a wiki. Gitlab je také silným nástrojem na code review a ideálním nástrojem na správu vzdálených repozitářů u Vás ve firmě a mimo ni.
 <hr class="line">
 
 ## O mně
 
-Jmenuji se __Ondřej Šika__, vyvíjím software pro __Slush Pool__ a školím. Školím převážně Docker, [GIT](https://ondrej-sika.cz/skoleni/git/), [Gitlab](https://ondrej-sika.cz/skoleni/gitlab/) a [Continues Integraqtion](https://ondrej-sika.cz/skoleni/continues-integration/), který s Dockerem velmi úzce souvisí. Další školení naleznete na mém webu [ondrej-sika.cz](https://ondrej-sika.cz).
+Jmenuji se __Ondřej Šika__, vyvíjím software pro __Slush Pool__ a školím. Školím převážně Docker, [GIT](https://ondrej-sika.cz/skoleni/git/), [Gitlab](https://ondrej-sika.cz/skoleni/gitlab/) a [Continues Integraqtion](https://ondrej-sika.cz/skoleni/continues-integration/). Další školení naleznete na mém webu [ondrej-sika.cz](https://ondrej-sika.cz).
 
 Všechny kurzy vedu osobně. S Dockerem mám více než dva roky zkušeností v rámci komerčního vývoje softwaru. Docker používám jak ve vývoji, tak i
 na produkci a nedovedu si již bez něj práci představit.
@@ -27,19 +26,15 @@ na produkci a nedovedu si již bez něj práci představit.
 <hr class="line">
 
 ## Co Vás naučím
-Ve dvoudenním kurzu si projdeme tyto věci:
-
-- Co je Docker, jeho vlastnosti, výhody a nevýhody
-- Jak Docker nainstalovat a základní pojmy
-- Docker registry a spouštění kontajneru
-- Stavení vlastních obrazů
-- Ukážu jak spravovat multikontajnerove aplikace v Docker Compose
-- Docker Machine - nástroj na management Docker hostů
-- Docker Swarm - cluster pro Docker aplikace
-- Deployment aplikaci do Swarmu
-- Nastavit Docker pro produkční používání
-- Monitoring a správu kontejnerů
-- Základy využití v CI (Continues Itegration)
+- Co je to Gitlab
+- Instalace a konfigurace
+- Administrace Gitlabu
+- Repozitář
+- Issues
+- Code review
+- Docker registy
+- Pages
+- Snippets
 
 <hr class="line">
 
@@ -47,15 +42,14 @@ Ve dvoudenním kurzu si projdeme tyto věci:
 Školení probíhá formou workshopu, vše si prakticky vyzkoušíte. Věřím, že praktické zkušenosti jsou to nejlepší, co si můžete z každého školení odnést. Školení probíhají buď v mé kanceláři, při velkém počtu zájemců ve školící místnosti. Při firemním školení samozřejmě mohu přijet k Vám do kanceláře.
 
 
-Všechny materiály z předchozích školení jsou volně k dispozici [github.com/skoleni-docker](https://github.com/skoleni-docker) a na mém [Speakerdeck](https://speakerdeck.com/ondrejsika).
+Všechny materiály z předchozích školení jsou volně k dispozici [github.com/skoleni-kubernetes](https://github.com/skoleni-kuberenetes) a na mém [Speakerdeck](https://speakerdeck.com/ondrejsika).
 
 Po absolvování školení obdržíte veřejně auditovatelný certifikát o účasti.
 
 <hr class="line">
 
 ## Cena
-Cena dvoudenního kurzu je __8000 CZK__ na osobu, v případě firemních školení je to __15000 CZK__ za školící den. Na rozsahu kurzu se předem domluvíme, většinou trvá 3 dny.
-
+Cena jednodenniho kurzu Gitlabu je 4 000 CZK za osobu. Pokud mate zajem o firemni skoleni, cena je 15 000 CZK za skolici den.
 __Studenti__, __univerzity__ a __neziskové organizace__ mají __50% slevu__.
 
 Lze domluvit například skupinové slevy, ceny se za určitých okolností dají určitě nějak zvýhodnit. V případě zájmu nebo dotazů mě neváhejte kontaktovat.
@@ -63,7 +57,7 @@ Lze domluvit například skupinové slevy, ceny se za určitých okolností daj�
 <hr class="line">
 
 ## Mám zájem o školení
-Pokud máte zájem o školení, neváhejte mě kontaktovat nebo <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-outline-dark">nezavazne poptat skoleni</a>.
+Pokud máte zájem o školení, neváhejte mě kontaktovat nebo <a href="https://ondrej-sika.cz/skoleni/gitlab/poptavka/" class="btn btn-outline-danger">nezavazne poptat skoleni gitlabu</a>.
 
 
 ## Kontakt
@@ -85,7 +79,7 @@ Nebo můžete sledovat [Facebook](https://facebook.com/skoleniio) a [Twitter](ht
 
 Občas na téma Dockeru přednáším, prednasky muzete najit na mem Blogu s tagem [#dockertalk](https://ondrej-sika.cz/blog/tag/dockertalk/)
 
-<center style="margin: 30px 0 40px"><a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-lg btn-dark">Nezavazne poptat skoleni Dockeru</a></center>
+<center style="margin: 30px 0 40px"><a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-lg btn-outline-danger">Nezavazne poptat skoleni Dockeru</a></center>
 
 
 
